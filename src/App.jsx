@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Index />} />
-        <Route path="/generate" element={<GenerateContent />} />
+        <Route path="/generate-content" element={<GenerateContent />} />
       </Routes>
     </Router>
   );

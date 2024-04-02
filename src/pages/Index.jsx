@@ -49,7 +49,7 @@ const Index = () => {
               <Text fontSize="xl" mb={8} fontFamily="body">
                 Harness the power of AI to generate compelling long-form content, optimize for SEO, and publish effortlessly.
               </Text>
-              <Button as={Link} to="/generate" colorScheme="blue" size="lg">
+              <Button as={Link} to="/generate-content" colorScheme="blue" size="lg">
                 Get Started
               </Button>
             </Box>
