@@ -43,10 +43,10 @@ const Index = () => {
         <Container maxW="container.lg">
           <Flex alignItems="center" justifyContent="space-between">
             <Box maxW="500px">
-              <Heading as="h1" size="2xl" mb={4}>
+              <Heading as="h1" size="2xl" mb={4} fontFamily="heading">
                 Revolutionize Your Content Strategy
               </Heading>
-              <Text fontSize="xl" mb={8}>
+              <Text fontSize="xl" mb={8} fontFamily="body">
                 Harness the power of AI to generate compelling long-form content, optimize for SEO, and publish effortlessly.
               </Text>
               <Button colorScheme="blue" size="lg">
@@ -61,17 +61,17 @@ const Index = () => {
       {/* Features Section */}
       <Box py={20}>
         <Container maxW="container.lg">
-          <Heading as="h2" size="xl" textAlign="center" mb={12}>
+          <Heading as="h2" size="xl" textAlign="center" mb={12} fontFamily="heading">
             Key Features
           </Heading>
           <SimpleGrid columns={[1, 2, 3]} spacing={10}>
             {features.map((feature, index) => (
               <Box key={index} bg="white" p={6} borderRadius="md" boxShadow="md">
                 <Icon as={feature.icon} boxSize={12} color="blue.500" mb={4} />
-                <Heading as="h3" size="lg" mb={2}>
+                <Heading as="h3" size="lg" mb={2} fontFamily="heading">
                   {feature.title}
                 </Heading>
-                <Text>{feature.description}</Text>
+                <Text fontFamily="body">{feature.description}</Text>
               </Box>
             ))}
           </SimpleGrid>
@@ -81,10 +81,10 @@ const Index = () => {
       {/* CTA Section */}
       <Box bg="blue.500" py={20} color="white">
         <Container maxW="container.lg" textAlign="center">
-          <Heading as="h2" size="xl" mb={4}>
+          <Heading as="h2" size="xl" mb={4} fontFamily="heading">
             Ready to Elevate Your Content Game?
           </Heading>
-          <Text fontSize="xl" mb={8}>
+          <Text fontSize="xl" mb={8} fontFamily="body">
             Sign up now and experience the future of content creation.
           </Text>
           <Button colorScheme="white" size="lg" variant="outline">
